@@ -16,6 +16,7 @@
       target="_blank">
       <fieldset class="info">
         <legend>Personal information</legend>
+
         <div class="outer">
           <label for="surname">Surname:</label>
           <input
@@ -23,8 +24,10 @@
             name="surname"
             id="surname"
             autocomplete="off"
-            required>
+            required
+          >
         </div>
+
         <div class="outer">
           <label for="name">Name:</label>
           <input
@@ -32,8 +35,10 @@
             name="name"
             id="name"
             autocomplete="off"
-            required>
+            required
+          >
         </div>
+
         <div class="outer">
           <label for="age">How old are You?</label>
           <input
@@ -43,8 +48,10 @@
             value="12"
             required
             min="12"
-            max="100">
+            max="100"
+          >
         </div>
+
         <div class="outer">
           <label for="birth">Full date of birth:</label>
           <input
@@ -53,18 +60,23 @@
             name="birth"
             required
             placeholder="mm/dd/yyyy"
-            max="01/01/2008">
+            max="01/01/2008"
+          >
         </div>
+
         <div class="outer">
           <label for="acception">I accept the term of the agreement</label>
           <input
             type="checkbox"
             id="acception"
-            name="acception">
+            name="acception"
+          >
         </div>
       </fieldset>
+
       <fieldset class="info">
         <legend>Registration</legend>
+
         <div class="outer">
           <label for="email">E-mail:</label>
           <input
@@ -73,8 +85,10 @@
             name="email"
             placeholder="email@example.com"
             required
-            multiple>
+            multiple
+          >
         </div>
+
         <div class="outer">
           <label for="password">Password:</label>
           <input
@@ -83,82 +97,106 @@
             name="password"
             minlength="6"
             maxlength="54"
-            required>
+            required
+          >
         </div>
       </fieldset>
+
       <fieldset class="info">
         <legend> An interesting fact about you!</legend>
+
         <div class="outer">
           Do you love cats?
           <input
             type="radio"
-            name="yes"
+            name="cats"
             id="yes"
-            value="Yes">
+            value="Yes"
+          >
           <label for="yes">Yes</label>
+
           <input
             type="radio"
-            name="no"
+            name="cats"
             id="no"
-            value="No">
+            value="No"
+          >
           <label for="no">No</label>
         </div>
+
         <div class="outer">
           <label for="color">What is your favorite color?</label>
           <input
             type="color"
             id="color"
-            name="color">
+            name="color"
+          >
         </div>
+
         <div class="outer">
           <label for="bed-time">What time do you go to bed?</label>
           <input
             type="time"
             id="bed-time"
             name="bed-time"
-            step="1">
+            step="1"
+          >
         </div>
+
         <div class="outer">
-          <label for="fav-cars-brand">What are your favorite brand of cars?</label>
+          <label for="fav-cars-brand">
+            What are your favorite brand of cars?
+          </label>
+
           <select
             name="fav-cars-brand"
             id="fav-cars-brand"
-            size="4">
+            size="4"
+          >
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
           </select>
         </div>
+
         <div class="outer">
           <label for="evaluation">How do you rate our work?</label>
           <input
             type="range"
             id="evaluation"
-            name="evaluation">
+            name="evaluation"
+          >
         </div>
       </fieldset>
+
       <fieldset class="info">
         <legend>Additional info</legend>
+
         <div class="outer">
           <label for="comments">Comments:</label>
+
           <textarea
             type="textarea"
             id="comments"
             name="comments"
             minlength="20"
-            maxlength="300">
+            maxlength="300"
+          >
           </textarea>
         </div>
+
         <div class="outer">
           <label for="recommend">Would you recommend us?</label>
           <select
             name="recommend"
-            id="recommend">
+            id="recommend"
+          >
             <option value="yes">yes</option>
             <option value="no">no</option>
           </select>
         </div>
       </fieldset>
+
       <div class="info outer">
         <input type="submit" value="Submit">
       </div>
